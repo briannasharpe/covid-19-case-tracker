@@ -1,0 +1,47 @@
+/* styles for the cards that display the confirmed, active, recovered, and deaths data */
+
+.container {
+    margin: 50px 0;
+}
+
+@media only screen and (max-width: 770px){
+    .card{
+        margin: 2% 0 !important;
+    }
+}
+
+.confirmed {
+    border: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.confirmed:hover {
+    background-color: rgba(77, 77, 168, 0.5);
+    transition: 0.3s;
+}
+
+.active {
+    border: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.active:hover {
+    background-color: rgba(145, 233, 145, 0.5);
+    transition: 0.3s;
+}
+
+.recovered {
+    border: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.recovered:hover {
+    background-color: rgba(219, 93, 93, 0.5);
+    transition: 0.3s;
+}
+
+.deaths {
+    border: 10px solid rgba(0, 158, 197, 0.5);
+}
+
+.deaths:hover {
+    background-color: rgba(100, 181, 201, 0.5);
+    transition: 0.3s;
+}

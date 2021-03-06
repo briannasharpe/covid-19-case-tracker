@@ -1,0 +1,46 @@
+/* styling for the map and country circles */
+
+.map {
+    height: 500px;
+    width: 80%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+  }
+
+  .map .leafletcontainer {
+    height: 100%;
+    border-radius: 12px;
+  }
+
+  .flagdisplay img {
+    width: 100px;
+    border-radius: 5px;
+  }
+  
+  .namedisplay {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .infocontainer {
+    width: 150px;
+  }
+  
+  .flagdisplay {
+    height: 80px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  
+  .confirmeddisplay,
+  .activedisplay,
+  .recovereddisplay,
+  .deathsdisplay {
+    font-size: 14px;
+    margin-top: 5px;
+  }

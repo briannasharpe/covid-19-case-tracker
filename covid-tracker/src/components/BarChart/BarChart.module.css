@@ -1,0 +1,15 @@
+.container{  
+    display: flex;  
+    justify-content: center;  
+    width: 50%;
+}   
+
+.maingraph {
+    justify-content: left;  
+    width: 30%; 
+}
+
+.secondarygraph {
+    justify-content: right;  
+    width: 20%; 
+}
